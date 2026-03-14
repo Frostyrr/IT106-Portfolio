@@ -271,3 +271,48 @@ footer {
     font-size: 14px;
     border-top: 1px solid #222;
 }
+
+/* --- for mobile resolution --- */
+@media (max-width: 768px) {
+    .section {
+        padding: 100px 5%; 
+    }
+
+    .home-content h1 {
+        font-size: 40px; 
+    }
+    .secAbout h2, .secSkill h2, .secCon h2 {
+        font-size: 30px; 
+        margin-bottom: 25px;
+    }
+
+    .about-container {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px; 
+    }
+    .about-text {
+        text-align: center; 
+    }
+
+    header {
+        width: 95%;
+        padding: 10px 15px;
+    }
+    nav ul {
+        gap: 10px;
+    }
+    nav a {
+        font-size: 12px;
+        padding: 5px 8px;
+    }
+
+    .contact-links {
+        flex-direction: column;
+        width: 100%;
+        max-width: 300px;
+    }
+    .social-btn {
+        justify-content: center;
+    }
+}
