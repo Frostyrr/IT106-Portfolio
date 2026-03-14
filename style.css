@@ -369,8 +369,4 @@ footer span {
     .social-btn {
         justify-content: center;
     }
-
-    .skills-container {
-        transform: scale(0.5);
-    }
 }
