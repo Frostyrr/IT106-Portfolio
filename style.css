@@ -29,10 +29,35 @@ header {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
 nav ul {
     display: flex;
     gap: 30px;
     list-style: none;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid #ffffff;
+    transition: 0.3s ease;
+}
+
+.logo img:hover {
+    transform: scale(1.5);
 }
 
 nav a {
